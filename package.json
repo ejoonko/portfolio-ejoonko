@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier -w .",
+    "format:check": "prettier -c ."
   },
   "dependencies": {
     "@types/node": "^20.6.5",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "eslint": "^8.50.0",
     "eslint-config-next": "^13.5.2",
-    "eslint-config-prettier": "^9.0.0"
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3"
   }
 }
