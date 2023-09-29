@@ -9,6 +9,6 @@ html {
 
 @layer components {
   .default-max-width {
-    @apply mx-auto max-w-default;
+    @apply mx-auto max-w-default px-10;
   }
 }

@@ -11,6 +11,9 @@ const config: Config = {
       maxWidth: {
         default: "1440px",
       },
+      minWidth: {
+        skillLabel: "50px",
+      },
     },
   },
   plugins: [],
